@@ -1,29 +1,22 @@
 import React from 'react';
 import './App.css';
-import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
+import Deck from './Deck';
 
 class App extends React.Component {
 
   render() {
     return (
       <div className="App">
-        <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={2}>
-              <Grid item xs={8}>
-                <p>hi</p>
-              </Grid>
-              <Grid item xs={4}>
-                <p>hi2</p>
-              </Grid>
-              <Grid item xs={4}>
-                <p>hi3</p>
-              </Grid>
-              <Grid item xs={8}>
-                <p>hi4</p>
-              </Grid>
-            </Grid>
-        </Box>
+        <Deck
+          card1='w'
+          card2='a'
+          card3='w'
+          card4='3'
+          card5='34'
+          card6='asd'
+          card7='1'
+          card8='edf'
+          ></Deck>
       </div>
     );
   }
