@@ -19,34 +19,36 @@ export default class Deck extends React.Component<DeckProps> {
 
     render() {
         return (
-            <Box  sx={{ flexGrow: 1 }}>
-                <Grid container spacing={2}>
-                    <Grid item xs={4}>
-                        <p style={{backgroundColor: '#fff'}}>{this.props.card1}</p>
+            <div style={{width: '400px', backgroundColor: '#ddd'}}>
+                <Box sx={{ flexGrow: 1 }}>
+                    <Grid container spacing={2}>
+                        <Grid item xs={4}>
+                            <p>{this.props.card1}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card2}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card3}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card4}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card5}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card6}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card7}</p>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <p>{this.props.card8}</p>
+                        </Grid>
                     </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card2}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card3}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card4}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card5}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card6}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card7}</p>
-                    </Grid>
-                    <Grid item xs={4}>
-                        <p>{this.props.card8}</p>
-                    </Grid>
-                </Grid>
-            </Box>
+                </Box>
+            </div>
         )
     }
 }
