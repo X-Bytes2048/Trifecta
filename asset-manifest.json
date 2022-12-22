@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Trifecta/static/css/main.073c9b0a.css",
-    "main.js": "/Trifecta/static/js/main.4a4411db.js",
+    "main.css": "/Trifecta/static/css/main.e6c13ad2.css",
+    "main.js": "/Trifecta/static/js/main.e158f116.js",
     "static/js/787.20ec2bc8.chunk.js": "/Trifecta/static/js/787.20ec2bc8.chunk.js",
     "index.html": "/Trifecta/index.html",
-    "main.073c9b0a.css.map": "/Trifecta/static/css/main.073c9b0a.css.map",
-    "main.4a4411db.js.map": "/Trifecta/static/js/main.4a4411db.js.map",
+    "main.e6c13ad2.css.map": "/Trifecta/static/css/main.e6c13ad2.css.map",
+    "main.e158f116.js.map": "/Trifecta/static/js/main.e158f116.js.map",
     "787.20ec2bc8.chunk.js.map": "/Trifecta/static/js/787.20ec2bc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4a4411db.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e158f116.js"
   ]
 }
