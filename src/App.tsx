@@ -1,22 +1,24 @@
 import React from 'react';
-import './App.css';
-import Deck from './Deck';
+import Deck from './components/Deck';
 
 class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Deck
-          card1='w'
-          card2='a'
-          card3='w'
-          card4='3'
-          card5='34'
-          card6='asd'
-          card7='1'
-          card8='edf'
-          ></Deck>
+      <div className="App" style={{
+        display: 'flex',
+        justifyContent: 'center'
+      }}>
+        <Deck cards={[
+          'mighty-miner',
+          'knight',
+          'knight',
+          'knight',
+          'knight',
+          'knight',
+          'knight',
+          'knight',
+        ]}></Deck>
       </div>
     );
   }
